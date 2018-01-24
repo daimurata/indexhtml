@@ -1,0 +1,37 @@
+body{
+	background-color:#000000;
+	/*上マージング*/
+	margin-top:0px;
+}
+
+.main{
+	width:640px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	background-color:#FFFFFF;
+}
+.main_pic{
+	/*上マージング*/
+	margin-top:0px;
+	/*プロパティ:値*/
+}
+
+.nav{
+	/*黒丸とか出さない*/
+	list-style:none;
+}
+
+.nav_button{
+	width:140px;
+	text-align:center;
+	background-color:#cc0000;
+	/*メニューボタンを横並びにする*/
+	display:inline-block;
+}
+
+/*nav_button内にあるアンカー*/
+.nav_button a{
+	text-decoration:none;
+	color:#fff;
+}
